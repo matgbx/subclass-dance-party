@@ -8,6 +8,8 @@ MakeBlinkyDancer.prototype.constructor = MakeBlinkyDancer;
 MakeBlinkyDancer.prototype.step = function() {
   MakeDancer.prototype.step.call(this); 
   this.$node.fadeToggle(1000);
-  
+};
 
+MakeBlinkyDancer.prototype.lineUp = function() {
+  MakeDancer.prototype.setPosition.call(this, 1, 1);
 };

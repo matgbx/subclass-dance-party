@@ -29,5 +29,12 @@ $(document).ready(function() {
     );
     $('body').append(dancer.$node);
   });
+
+  $('.lineUpLeft').on('click', function(event) {
+    for (var i = 0; i < window.dancer.length; i++) {
+      window.dancer[i].animate({left: '0px'});
+    }
+  });
+ 
 });
 

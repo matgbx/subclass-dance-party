@@ -3,14 +3,19 @@ body, html{
 }
 body{
   margin: 0px;
-  /*background-color:#444;*/
-  background-image: url('assets/lily.jpg');
+  background-color:#444;
+  /*background-image: url('assets/lily.jpg');*/
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
 .title, .addDancerButton{
+  padding:5px 12px;
+  float:right;
+}
+
+.lineUpLeft{
   padding:5px 12px;
   float:right;
 }
@@ -23,9 +28,9 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  width: 272px;
-  height: 185px;
-  background-image: url('assets/khart.jpeg');
+  width: 500px;
+  height: 282px;
+  background-image: url('assets/shark.gif');
   /*border:10px ;*/
   border-radius: 250px;
   position:absolute;
@@ -33,11 +38,11 @@ body, a:link, a:visited, a:active{
 }
 
 .dancer1{
-  width: 20px;
-  height: 20px;
-/*  background-image: url('assets/khart.jpeg');*/
-  border:5px solid #2E3B68;
-  border-radius: 20px;
+  width: 500px;
+  height: 295px;
+  background-image: url('assets/spongebob.gif');
+  /*border:1px solid #2E3B68;*/
+  /*border-radius: 10px;*/
   position:absolute;
   /*display: center;*/
 
