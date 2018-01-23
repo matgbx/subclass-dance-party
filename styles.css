@@ -3,7 +3,8 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  /*background-color:#444;*/
+  background-image: url('assets/lily.jpg');
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -16,12 +17,28 @@ body, a:link, a:visited, a:active{
 .topbar{
   height:32px;
   background-color: #555;
+
 }
 .title{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  width: 272px;
+  height: 185px;
+  background-image: url('assets/khart.jpeg');
+  /*border:10px ;*/
+  border-radius: 250px;
   position:absolute;
+  display: center;
+}
+
+.dancer1{
+  width: 20px;
+  height: 20px;
+/*  background-image: url('assets/khart.jpeg');*/
+  border:5px solid #2E3B68;
+  border-radius: 20px;
+  position:absolute;
+  /*display: center;*/
+
 }
