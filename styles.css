@@ -4,8 +4,10 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
-  /*background-image: url('assets/lily.jpg');*/
+  background-image: url('assets/d40506d2c691b53284269f7c2cf44151.png');
+  background-size: 100% 100%;
   font-size: 18px;
+  overflow: hidden;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -20,7 +22,7 @@ body, a:link, a:visited, a:active{
   float:right;
 }
 .topbar{
-  height:32px;
+  height:32px;  
   background-color: #555;
 
 }
@@ -29,21 +31,46 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   width: 500px;
-  height: 282px;
-  background-image: url('assets/shark.gif');
+  height: 550px;
+  background-image: url('assets/sharky2.gif');
+  background-position: center;
+  background-repeat: no-repeat;
   /*border:10px ;*/
-  border-radius: 250px;
-  position:absolute;
-  display: center;
+  /*border-radius: 250px;*/
+  position:absolute;  
+  /*display: center;*/
 }
 
-.dancer1{
-  width: 500px;
-  height: 295px;
-  background-image: url('assets/spongebob.gif');
-  /*border:1px solid #2E3B68;*/
-  /*border-radius: 10px;*/
+.schoolFishDancer{
+  width: 165px;
+  height: 170px;
+  background-image: url('assets/schoolfish2.gif');
+  background-position: center;
+  /*border: 10px solid red;*/
+  border-radius: 10px;
   position:absolute;
-  /*display: center;*/
+  display: center;
 
+}
+
+.newDancer1{
+  width: 300px;
+  height: 300px;
+  background-image: url('assets/spongebob.gif');
+  background-position: center;
+  /*transform: rotate(180deg);*/
+  border-radius: 10px;
+  position:absolute;
+  display: center;
+
+}
+
+.crabDancer{
+    background-image: url('assets/crab2.gif');
+    background-position: center;
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    top: 1000;
+    left: 400;
 }
